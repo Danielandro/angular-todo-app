@@ -1,0 +1,21 @@
+.del {
+  background: #ffcccc;
+  color: #000;
+  border: 2px #000 solid;
+  border-radius: 50%;
+  padding: 5px 9px;
+  cursor: pointer;
+  float: right;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.todo {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-bottom: 5px #ddd solid;
+}
+
+.is-complete {
+  text-decoration: line-through;
+}

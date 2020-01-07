@@ -8,6 +8,16 @@ import Todo from "src/app/models/Todo";
 })
 export class TodoItemComponent implements OnInit {
   constructor() {}
+  // add Input decorator to pass data
   @Input() todo: Todo;
   ngOnInit() {}
+
+  // Add dynamic classes
+  setClasses() {
+    let classes = {
+      todo: true,
+      "is-complete": this.todo.completed
+    };
+    return classes;
+  }
 }
