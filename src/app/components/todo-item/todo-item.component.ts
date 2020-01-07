@@ -12,7 +12,7 @@ export class TodoItemComponent implements OnInit {
   @Input() todo: Todo;
   ngOnInit() {}
 
-  // Add dynamic classes
+  // Set dynamic classes
   setClasses() {
     let classes = {
       todo: true,
